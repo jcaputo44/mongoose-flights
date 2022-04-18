@@ -17,7 +17,7 @@ const flightSchema = new Schema ({
         required: true
     },
     departs: {
-        type: String
+        type: Date
     }, 
 });
 
