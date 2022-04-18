@@ -14,11 +14,10 @@ const flightSchema = new Schema ({
     },
     flightNo: {
         type: Number,
-        required: true,
-        enum: []
+        required: true
     },
     departs: {
-        type: Date
+        type: String
     }, 
 });
 
